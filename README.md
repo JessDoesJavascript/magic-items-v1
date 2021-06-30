@@ -2,5 +2,7 @@ Version 1.0 of a Random Magic Item Generator. I made this with Dungeons & Dragon
 
 I sourced data for this project from the following:
 
-https://github.com/dariusk/corpora
+https://github.com/dariusk/corpora & 
 https://github.com/rlms/sonnets 
+
+(Thank you!)

@@ -18,6 +18,11 @@ const StyledApp = styled.div`
   text-align: center; 
 `;
 
+const StyledH2 = styled.h2`
+  font-size: 2.5rem; 
+  letter-spacing: 2px; 
+`;
+
 const StyledP = styled.p`
   width: 300px;
 `;
@@ -33,6 +38,9 @@ const StyledGeneratorContainer = styled.div`
 const StyledButton = styled.button`
   background-color: white; 
   color: #3D0B37;
+  width: 300px;
+  font-size: 1.5rem;
+  
 `;
 
 class App extends React.Component {
@@ -53,7 +61,7 @@ class App extends React.Component {
     const numberOfWords = presentParticiples().length;
     let randomNumber = Math.trunc(Math.random() * numberOfWords);
     let effect = presentParticiples()[randomNumber];
-    this.setState({ adjective, object, effect, magicItem: "The " + object + " of " + effect })
+    this.setState({ adjective, object, effect, magicItem: "the " + object + " of " + effect })
   }
   render() {
   return (
@@ -65,10 +73,11 @@ class App extends React.Component {
         The suggestions you get may be sensible or silly. I hope you enjoy using it. </StyledP>
      <StyledGeneratorContainer>
       
-        <h2>{this.state.magicItem}</h2>
+        <StyledH2>{this.state.magicItem}</StyledH2>
         <StyledButton onClick={(e) => this.newWordGenerator()}> Click here to generate a new magic item! </StyledButton>
 
      </StyledGeneratorContainer>
+      <StyledP>If you like this generator, or you've created something cool with it, I'd love to hear about it. My twitter handle is @JessDoesJS. </StyledP>
     </StyledApp>
   );
 }
