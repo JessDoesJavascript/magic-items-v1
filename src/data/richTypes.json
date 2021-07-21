@@ -1,0 +1,22 @@
+{
+    "description": "Object Types",
+    "objects": [
+      { 
+        "type": "handheld"
+      },
+      { 
+        "type": "edible"
+      },
+      { 
+        "type": "container"
+      },
+      {
+        "type": "jewellery"
+      },
+      { 
+        "type": "useable"
+      },
+      {
+        "type": "wearable"
+      }
+      ]}

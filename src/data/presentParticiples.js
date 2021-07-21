@@ -24987,12 +24987,22 @@ const originalArray = [
 function presentParticiples() {
 const numberOfItems = originalArray.length;
 const newArray = [];
-    for (let i = 0; i < numberOfItems; i++) {
+    for (let i = 0; i < 200; i++) {
     newArray.push(originalArray[i][0])
- }         
-return newArray
+    
+ }    
+ let uniqueWords = [...new Set(newArray)];     
+
+ let wordsMappedToObject = JSON.stringify(uniqueWords.map(function(word) {
+    return { 
+        word: word,
+        type: "",
+        skill: ""}
+ }))
+ console.log(wordsMappedToObject)
 }
 
 presentParticiples(originalArray);
+
 
 module.exports = presentParticiples

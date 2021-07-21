@@ -1,0 +1,30 @@
+{
+    "description": "a list of types of bonuses and penalties",
+    "effectTypes": [
+        {
+            "effect": "advantage",
+            "type": "common"
+        },
+        {
+            "effect": "a +1 bonus",
+            "type": "uncommon"
+        },
+        {
+            "effect": "a +2 bonus",
+            "type": "rare"
+        },
+        {
+            "effect": "a +3 bonus",
+            "type": "veryRare"
+        },
+        {
+            "effect": "a +4 bonus",
+            "type": "legendary"
+        }
+    ],
+    "strength": [{
+        "common": "once per long rest",
+        "uncommon": "twice per long rest",
+        "rare": "three times per long rest"
+    }]
+}

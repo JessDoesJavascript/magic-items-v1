@@ -1,0 +1,363 @@
+{
+    "description": "List of types of objects with examples",
+    "objectsByName": [
+      {
+        "name": "staff",
+        "use": "held",
+        "plural": "no"
+      },
+      {
+        "name": "wand",
+        "use": "held",
+        "plural": "no"
+      },
+
+      {
+        "name": "orb",
+        "use": "held",
+        "plural": "no"
+      },
+      {
+        "name": "rod",
+        "use": "held",
+        "plural": "no"
+      },
+      {
+        "name": "disc",
+        "use": "held",
+        "plural": "no"
+      },
+      {
+        "name": "amulet",
+        "use": "held",
+        "plural": "no"
+      },
+      {
+        "name": "cube",
+        "use": "held",
+        "plural": "no"
+      },
+      {
+        "name": "dodecahedron",
+        "use": "held",
+        "plural": "no"
+      },
+      {
+        "name": "pocket watch",
+        "use": "held",
+        "plural": "no"
+      },
+      {
+        "name": "flower",
+        "use": "held",
+        "plural": "no"
+      },
+      {
+        "name": "bar of soap",
+        "use": "used",
+        "plural": "no"
+      },
+      {
+        "name": "drum",
+        "use": "played",
+        "plural": "no"
+      },
+      {
+        "name": "glockenspiel",
+        "use": "played",
+        "plural": "no"
+      },
+      {
+        "name": "harp",
+        "use": "played",
+        "plural": "no"
+      },
+      {
+        "name": "bagpipes",
+        "use": "played",
+        "plural": "yes"
+      },
+      {
+        "name": "lute",
+        "use": "played",
+        "plural": "no"
+      },
+      {
+        "name": "horn",
+        "use": "played",
+        "plural": "no"
+      },
+      {
+        "name": "viol",
+        "use": "played",
+        "plural": "no"
+      },
+      {
+        "name": "shawm",
+        "use": "played",
+        "plural": "no"
+      },
+      {
+        "name": "flute",
+        "use": "played",
+        "plural": "no"
+      },
+      {
+        "name": "lyre",
+        "use": "played",
+        "plural": "no"
+      },
+      {
+        "name": "pan flute",
+        "use": "played",
+        "plural": "no"
+      },
+      {
+        "name": "guitar",
+        "use": "played",
+        "plural": "no"
+      },
+      {
+        "name": "banjo",
+        "use": "played",
+        "plural": "no"
+      },
+      {
+        "name": "mandolin",
+        "use": "played",
+        "plural": "no"
+      },
+      {
+        "name": "cello",
+        "use": "played",
+        "plural": "no"
+      },
+      {
+        "name": "fiddle",
+        "use": "played",
+        "plural": "no"
+      },
+      {
+        "name": "cloak",
+        "use": "worn",
+        "plural": "no"
+      },
+      {
+        "name": "coat",
+        "use": "worn",
+        "plural": "no"
+      },
+      {
+        "name": "cape",
+        "use": "worn",
+        "plural": "no"
+      },
+      {
+        "name": "jacket",
+        "use": "worn",
+        "plural": "no"
+      },
+      {
+        "name": "hat",
+        "use": "worn",
+        "plural": "no"
+      },
+      {
+        "name": "headband",
+        "use": "worn",
+        "plural": "no"
+      },
+      {
+        "name": "earmuffs",
+        "use": "worn",
+        "plural": "yes"
+      },
+      {
+        "name": "earrings",
+        "use": "worn",
+        "plural": "yes"
+      },
+      {
+        "name": "necklace",
+        "use": "worn",
+        "plural": "no"
+      },
+      {
+        "name": "beads",
+        "use": "worn",
+        "plural": "yes"
+      },
+      {
+        "name": "collar",
+        "use": "worn",
+        "plural": "no"
+      },
+      {
+        "name": "choker",
+        "use": "worn",
+        "plural": "no"
+      },
+      {
+        "name": "fake beard",
+        "use": "worn",
+        "plural": "no"
+      },
+      {
+        "name": "fake moustache",
+        "use": "worn",
+        "plural": "no"
+      },
+      {
+        "name": "monocle",
+        "use": "worn",
+        "plural": "no"
+      },
+      {
+        "name": "glasses",
+        "use": "worn",
+        "plural": "yes"
+      },
+      {
+        "name": "spectacles",
+        "use": "worn",
+        "plural": "yes"
+      },
+      {
+        "name": "shirt",
+        "use": "worn",
+        "plural": "no"
+      },
+      {
+        "name": "trousers",
+        "use": "worn",
+        "plural": "yes"
+      },
+      {
+        "name": "waistcoat",
+        "use": "worn",
+        "plural": "no"
+      },
+      {
+        "name": "corset",
+        "use": "worn",
+        "plural": "no"
+      },
+      {
+        "name": "wristwatch",
+        "use": "worn",
+        "plural": "no"
+      },
+      {
+        "name": "bracelet",
+        "use": "worn",
+        "plural": "no"
+      },
+      {
+        "name": "bangle",
+        "use": "worn",
+        "plural": "no"
+      },
+      {
+        "name": "toe ring",
+        "use": "worn",
+        "plural": "no"
+      },
+      {
+        "name": "ring",
+        "use": "worn",
+        "plural": "no"
+      },
+      {
+        "name": "shoulderpads",
+        "use": "worn",
+        "plural": "yes"
+      },
+      {
+        "name": "apron",
+        "use": "worn",
+        "plural": "no"
+      },
+      {
+        "name": "oven gloves",
+        "use": "worn",
+        "plural": "yes"
+      },
+      {
+        "name": "gloves",
+        "use": "worn",
+        "plural": "yes"
+      },
+      {
+        "name": "fingerless gloves",
+        "use": "worn",
+        "plural": "yes"
+      },
+      {
+        "name": "bracers",
+        "use": "worn",
+        "plural": "yes"
+      },
+      {
+        "name": "boots",
+        "use": "worn",
+        "plural": "yes"
+      },
+      {
+        "name": "loafers",
+        "use": "worn",
+        "plural": "yes"
+      },
+      {
+        "name": "mules",
+        "use": "worn",
+        "plural": "yes"
+      },
+      {
+        "name": "sandals",
+        "use": "worn",
+        "plural": "yes"
+      },
+      {
+        "name": "flip-flops",
+        "use": "worn",
+        "plural": "yes"
+      },
+      {
+        "name": "boots",
+        "use": "worn",
+        "plural": "yes"
+      },
+      {
+        "name": "nail polish",
+        "use": "worn",
+        "plural": "no"
+      },
+      {
+        "name": "mug",
+        "use": "filled",
+        "plural": "no"
+      },
+      {
+        "name": "knife",
+        "use": "held",
+        "plural": "no"
+      },
+      {
+        "name": "fork",
+        "use": "held",
+        "plural": "no"
+      },
+      {
+        "name": "spoon",
+        "use": "held",
+        "plural": "no"
+      },
+      {
+        "name": "bowl",
+        "use": "held",
+        "plural": "no"
+      }
+      
+
+
+    ]}

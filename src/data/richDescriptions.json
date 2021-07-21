@@ -1,0 +1,950 @@
+{ "description": "array of describing words and their related skills",
+    "descriptions": [
+        {   
+            "word": "acrobatics",
+            "type": "skillCheck",
+            "skill": "acrobatics"
+        },
+        {   
+            "word": "spinning",
+            "type": "skillCheck",
+            "skill": "acrobatics"
+        },
+        {   
+            "word": "doing flips and shit",
+            "type": "skillCheck",
+            "skill": "acrobatics"
+        },
+        {   
+            "word": "wiggling",
+            "type": "skillCheck",
+            "skill": "acrobatics"
+        },
+        {   
+            "word": "cartwheeling",
+            "type": "skillCheck",
+            "skill": "acrobatics"
+        },
+        {   
+            "word": "tumbling",
+            "type": "skillCheck",
+            "skill": "acrobatics"
+        },
+        {   
+            "word": "nimbleness",
+            "type": "skillCheck",
+            "skill": "acrobatics"
+        },
+        {   
+            "word": "quickness",
+            "type": "skillCheck",
+            "skill": "acrobatics"
+        },
+        {
+            "word": "animal handling",
+            "type": "skillCheck",
+            "skill": "animal handling"
+        },
+        {
+            "word": "herding",
+            "type": "skillCheck",
+            "skill": "animal handling"
+        },
+        {
+            "word": "wild beasts",
+            "type": "skillCheck",
+            "skill": "animal handling"
+        },
+        {
+            "word": "animal influence",
+            "type": "skillCheck",
+            "skill": "animal handling"
+        },
+        {
+            "word": "zookeeping",
+            "type": "skillCheck",
+            "skill": "animal handling"
+        }, 
+        {
+            "word": "prowling",
+            "type": "skillCheck",
+            "skill": "animal handling"
+        },
+        {
+            "word": "birdwatching",
+            "type": "skillCheck",
+            "skill": "animal handling"
+        },
+        {
+            "word": "arcana",
+            "type": "skillCheck",
+            "skill": "arcana"
+        },
+        {
+            "word": "weird",
+            "type": "skillCheck",
+            "skill": "arcana"
+        },
+        {
+            "word": "mystery",
+            "type": "skillCheck",
+            "skill": "arcana"
+        },
+        {
+            "word": "fascination",
+            "type": "skillCheck",
+            "skill": "arcana"
+        },
+        {
+            "word": "the witches",
+            "type": "skillCheck",
+            "skill": "arcana"
+        },
+        {
+            "word": "spells",
+            "type": "skillCheck",
+            "skill": "arcana"
+        },
+        {
+            "word": "magic",
+            "type": "skillCheck",
+            "skill": "arcana"
+        },
+        {
+            "word": "studying",
+            "type": "skillCheck",
+            "skill": "arcana"
+        },
+        {
+            "word": "the sage",
+            "type": "skillCheck",
+            "skill": "arcana"
+        },
+        {
+            "word": "the mage",
+            "type": "skillCheck",
+            "skill": "arcana"
+        },
+        {
+            "word": "athletics",
+            "type": "skillCheck",
+            "skill": "athletics"
+        },
+        {
+            "word": "strengthening",
+            "type": "skillCheck",
+            "skill": "athletics"
+        },
+        {
+            "word": "exercising",
+            "type": "skillCheck",
+            "skill": "athletics"
+        },
+        {
+            "word": "lifting",
+            "type": "skillCheck",
+            "skill": "athletics"
+        },
+        {
+            "word": "carrying",
+            "type": "skillCheck",
+            "skill": "athletics"
+        },
+        {
+            "word": "stamina",
+            "type": "skillCheck",
+            "skill": "athletics"
+        },
+        {
+            "word": "endurance",
+            "type": "skillCheck",
+            "skill": "athletics"
+        },
+        {
+            "word": "durability",
+            "type": "skillCheck",
+            "skill": "athletics"
+        },
+        {
+            "word": "fitness",
+            "type": "skillCheck",
+            "skill": "athletics"
+        },
+        {
+            "word": "calisthenics",
+            "type": "skillCheck",
+            "skill": "athletics"
+        },
+        {
+            "word": "training",
+            "type": "skillCheck",
+            "skill": "athletics"
+        },
+        {
+            "word": "heaviness",
+            "type": "skillCheck",
+            "skill": "athletics"
+        },
+        {
+            "word": "deception",
+            "type": "skillCheck",
+            "skill": "deception"
+        },
+        {
+            "word": "convincing",
+            "type": "skillCheck",
+            "skill": "deception"
+        },
+        {
+            "word": "authenticity",
+            "type": "skillCheck",
+            "skill": "deception"
+        },
+        {
+            "word": "trustworthiness",
+            "type": "skillCheck",
+            "skill": "deception"
+        },
+        {
+            "word": "legitimacy",
+            "type": "skillCheck",
+            "skill": "deception"
+        },
+        {
+            "word": "true story",
+            "type": "skillCheck",
+            "skill": "deception"
+        },
+        {
+            "word": "he-said-she-said",
+            "type": "skillCheck",
+            "skill": "deception"
+        },
+        {
+            "word": "deceiving",
+            "type": "skillCheck",
+            "skill": "deception"
+        },
+        {
+            "word": "history",
+            "type": "skillCheck",
+            "skill": "history"
+        },
+        {
+            "word": "the past",
+            "type": "skillCheck",
+            "skill": "history"
+        },
+        {
+            "word": "recollection",
+            "type": "skillCheck",
+            "skill": "history"
+        },
+        {
+            "word": "perfect recall",
+            "type": "skillCheck",
+            "skill": "history"
+        },
+        {
+            "word": "remembering",
+            "type": "skillCheck",
+            "skill": "history"
+        },
+        {
+            "word": "the scribe",
+            "type": "skillCheck",
+            "skill": "history"
+        },
+        {
+            "word": "the historian",
+            "type": "skillCheck",
+            "skill": "history"
+        },
+        {
+            "word": "insight",
+            "type": "skillCheck",
+            "skill": "insight"
+        },
+        {
+            "word": "observing",
+            "type": "skillCheck",
+            "skill": "insight"
+        },
+        {
+            "word": "understanding",
+            "type": "skillCheck",
+            "skill": "insight"
+        },
+        {
+            "word": "intuition",
+            "type": "skillCheck",
+            "skill": "insight"
+        },
+        {
+            "word": "reading",
+            "type": "skillCheck",
+            "skill": "insight"
+        },
+        {
+            "word": "awareness",
+            "type": "skillCheck",
+            "skill": "insight"
+        },
+        {
+            "word": "trusting",
+            "type": "skillCheck",
+            "skill": "insight"
+        },
+        {
+            "word": "intimidation",
+            "type": "skillCheck",
+            "skill": "intimidation"
+        },
+        {
+            "word": "intimidating",
+            "type": "skillCheck",
+            "skill": "intimidation"
+        },
+        {
+            "word": "threatening",
+            "type": "skillCheck",
+            "skill": "intimidation"
+        },
+        {
+            "word": "bullying",
+            "type": "skillCheck",
+            "skill": "intimidation"
+        },
+        {
+            "word": "fear",
+            "type": "skillCheck",
+            "skill": "intimidation"
+        },
+        {
+            "word": "frightening",
+            "type": "skillCheck",
+            "skill": "intimidation"
+        },
+        {
+            "word": "aggression",
+            "type": "skillCheck",
+            "skill": "intimidation"
+        },
+        {
+            "word": "terrorising",
+            "type": "skillCheck",
+            "skill": "intimidation"
+        },
+        {
+            "word": "anger",
+            "type": "skillCheck",
+            "skill": "intimidation"
+        },
+        {
+            "word": "growling",
+            "type": "skillCheck",
+            "skill": "intimidation"
+        },
+        {
+            "word": "investigation",
+            "type": "skillCheck",
+            "skill": "investigation"
+        },
+        {
+            "word": "investigating",
+            "type": "skillCheck",
+            "skill": "investigation"
+        },
+        {
+            "word": "rummaging",
+            "type": "skillCheck",
+            "skill": "investigation"
+        },
+        {
+            "word": "inspecting",
+            "type": "skillCheck",
+            "skill": "investigation"
+        },
+        {
+            "word": "delving",
+            "type": "skillCheck",
+            "skill": "investigation"
+        },
+        {
+            "word": "exploring",
+            "type": "skillCheck",
+            "skill": "investigation"
+        },
+        {
+            "word": "ransacking",
+            "type": "skillCheck",
+            "skill": "investigation"
+        },
+        {
+            "word": "exploration",
+            "type": "skillCheck",
+            "skill": "investigation"
+        },
+        {
+            "word": "medicine",
+            "type": "skillCheck",
+            "skill": "medicine"
+        },
+        {
+            "word": "healing",
+            "type": "skillCheck",
+            "skill": "medicine"
+        },
+        {
+            "word": "examining",
+            "type": "skillCheck",
+            "skill": "medicine"
+        },
+        {
+            "word": "living",
+            "type": "skillCheck",
+            "skill": "medicine"
+        },
+        {
+            "word": "bandaging",
+            "type": "skillCheck",
+            "skill": "medicine"
+        },
+        {
+            "word": "fixing",
+            "type": "skillCheck",
+            "skill": "medicine"
+        },
+        {
+            "word": "diagnosing",
+            "type": "skillCheck",
+            "skill": "medicine"
+        },
+        {
+            "word": "anatomy",
+            "type": "skillCheck",
+            "skill": "medicine"
+        },
+        {
+            "word": "medical knowledge",
+            "type": "skillCheck",
+            "skill": "medicine"
+        },
+        {
+            "word": "nature",
+            "type": "skillCheck",
+            "skill": "nature"
+        },
+        {
+            "word": "the outdoors",
+            "type": "skillCheck",
+            "skill": "nature"
+        },
+        {
+            "word": "foraging",
+            "type": "skillCheck",
+            "skill": "nature"
+        },
+        {
+            "word": "archaeology",
+            "type": "skillCheck",
+            "skill": "nature"
+        },
+        {
+            "word": "plants",
+            "type": "skillCheck",
+            "skill": "nature"
+        },
+        {
+            "word": "rocks",
+            "type": "skillCheck",
+            "skill": "nature"
+        },
+        {
+            "word": "planting",
+            "type": "skillCheck",
+            "skill": "nature"
+        },
+        {
+            "word": "the trees",
+            "type": "skillCheck",
+            "skill": "nature"
+        },
+        {
+            "word": "safety",
+            "type": "skillCheck",
+            "skill": "nature"
+        },
+        {
+            "word": "perception",
+            "type": "skillCheck",
+            "skill": "perception"
+        },
+        {
+            "word": "perceiving",
+            "type": "skillCheck",
+            "skill": "perception"
+        },
+        {
+            "word": "looking",
+            "type": "skillCheck",
+            "skill": "perception"
+        },
+        {
+            "word": "snooping",
+            "type": "skillCheck",
+            "skill": "perception"
+        },
+        {
+            "word": "inspecting",
+            "type": "skillCheck",
+            "skill": "perception"
+        },
+        {
+            "word": "observing",
+            "type": "skillCheck",
+            "skill": "perception"
+        },
+        {
+            "word": "observation",
+            "type": "skillCheck",
+            "skill": "perception"
+        },
+        {
+            "word": "seeing",
+            "type": "skillCheck",
+            "skill": "perception"
+        },
+        {
+            "word": "seeing things",
+            "type": "skillCheck",
+            "skill": "perception"
+        },
+        {
+            "word": "vision",
+            "type": "skillCheck",
+            "skill": "perception"
+        },
+        {
+            "word": "glancing",
+            "type": "skillCheck",
+            "skill": "perception"
+        },
+        {
+            "word": "viewing",
+            "type": "skillCheck",
+            "skill": "perception"
+        },
+        {
+            "word": "surveying",
+            "type": "skillCheck",
+            "skill": "perception"
+        },
+        {
+            "word": "watching",
+            "type": "skillCheck",
+            "skill": "perception"
+        },
+        {
+            "word": "listening",
+            "type": "skillCheck",
+            "skill": "perception"
+        },
+        {
+            "word": "tasting",
+            "type": "skillCheck",
+            "skill": "perception"
+        },
+        {
+            "word": "touching",
+            "type": "skillCheck",
+            "skill": "perception"
+        },
+        {
+            "word": "smelling",
+            "type": "skillCheck",
+            "skill": "perception"
+        },
+        {
+            "word": "performance",
+            "type": "skillCheck",
+            "skill": "performance"
+        },
+        {
+            "word": "performing",
+            "type": "skillCheck",
+            "skill": "performance"
+        },
+        {
+            "word": "acting",
+            "type": "skillCheck",
+            "skill": "performance"
+        },
+        {
+            "word": "the jester",
+            "type": "skillCheck",
+            "skill": "performance"
+        },
+        {
+            "word": "the bard",
+            "type": "skillCheck",
+            "skill": "performance"
+        },
+        {
+            "word": "drama",
+            "type": "skillCheck",
+            "skill": "performance"
+        },
+        {
+            "word": "edgy improv",
+            "type": "skillCheck",
+            "skill": "performance"
+        },
+        {
+            "word": "improvisation",
+            "type": "skillCheck",
+            "skill": "performance"
+        },
+        {
+            "word": "being dramatic",
+            "type": "skillCheck",
+            "skill": "performance"
+        },
+        {
+            "word": "the arts",
+            "type": "skillCheck",
+            "skill": "performance"
+        },
+        {
+            "word": "musicianship",
+            "type": "skillCheck",
+            "skill": "performance"
+        },
+        {
+            "word": "theatrics",
+            "type": "skillCheck",
+            "skill": "performance"
+        },
+        {
+            "word": "showmanship",
+            "type": "skillCheck",
+            "skill": "performance"
+        },
+        {
+            "word": "persuasion",
+            "type": "skillCheck",
+            "skill": "persuasion"
+        },
+        {
+            "word": "convincing",
+            "type": "skillCheck",
+            "skill": "persuasion"
+        },
+        {
+            "word": "dealmaking",
+            "type": "skillCheck",
+            "skill": "persuasion"
+        },
+        {
+            "word": "persuading",
+            "type": "skillCheck",
+            "skill": "persuasion"
+        },
+        {
+            "word": "coaxing",
+            "type": "skillCheck",
+            "skill": "persuasion"
+        },
+        {
+            "word": "reasoning",
+            "type": "skillCheck",
+            "skill": "persuasion"
+        },
+        {
+            "word": "inciting",
+            "type": "skillCheck",
+            "skill": "persuasion"
+        },
+        {
+            "word": "swaying",
+            "type": "skillCheck",
+            "skill": "persuasion"
+        },
+        {
+            "word": "religion",
+            "type": "skillCheck",
+            "skill": "religion"
+        },
+        {
+            "word": "the acolyte",
+            "type": "skillCheck",
+            "skill": "religion"
+        },
+        {
+            "word": "reverence",
+            "type": "skillCheck",
+            "skill": "religion"
+        },
+        {
+            "word": "holiness",
+            "type": "skillCheck",
+            "skill": "religion"
+        },
+        {
+            "word": "believing",
+            "type": "skillCheck",
+            "skill": "religion"
+        },
+        {
+            "word": "faith",
+            "type": "skillCheck",
+            "skill": "religion"
+        },
+        {
+            "word": "sanctity",
+            "type": "skillCheck",
+            "skill": "religion"
+        },
+        {
+            "word": "piety",
+            "type": "skillCheck",
+            "skill": "religion"
+        },
+        {
+            "word": "servitude",
+            "type": "skillCheck",
+            "skill": "religion"
+        },
+        {
+            "word": "quickness",
+            "type": "skillCheck",
+            "skill": "sleight of hand"
+        },
+        {
+            "word": "tricks",
+            "type": "skillCheck",
+            "skill": "sleight of hand"
+        },
+        {
+            "word": "trickery",
+            "type": "skillCheck",
+            "skill": "sleight of hand"
+        },
+        {
+            "word": "the old razzle-dazzle",
+            "type": "skillCheck",
+            "skill": "sleight of hand"
+        },
+        {
+            "word": "pinching",
+            "type": "skillCheck",
+            "skill": "sleight of hand"
+        },
+        {
+            "word": "cheating",
+            "type": "skillCheck",
+            "skill": "sleight of hand"
+        },
+        {
+            "word": "chicanery",
+            "type": "skillCheck",
+            "skill": "sleight of hand"
+        },
+        {
+            "word": "52 cards",
+            "type": "skillCheck",
+            "skill": "sleight of hand"
+        },
+        {
+            "word": "double-dealing",
+            "type": "skillCheck",
+            "skill": "sleight of hand"
+        },
+        {
+            "word": "underhandedness",
+            "type": "skillCheck",
+            "skill": "sleight of hand"
+        },
+        {
+            "word": "cunning",
+            "type": "skillCheck",
+            "skill": "sleight of hand"
+        },
+        {
+            "word": "stealing",
+            "type": "skillCheck",
+            "skill": "sleight of hand"
+        },
+        {
+            "word": "thieves",
+            "type": "skillCheck",
+            "skill": "sleight of hand"
+        },
+        {
+            "word": "thieving",
+            "type": "skillCheck",
+            "skill": "sleight of hand"
+        },
+        {
+            "word": "concealing",
+            "type": "skillCheck",
+            "skill": "sleight of hand"
+        },
+        {
+            "word": "stealth",
+            "type": "skillCheck",
+            "skill": "stealth"
+        },
+        {
+            "word": "sneaking",
+            "type": "skillCheck",
+            "skill": "stealth"
+        },
+        {
+            "word": "being sneaky",
+            "type": "skillCheck",
+            "skill": "stealth"
+        },
+        {
+            "word": "muffling",
+            "type": "skillCheck",
+            "skill": "stealth"
+        },
+        {
+            "word": "blending in",
+            "type": "skillCheck",
+            "skill": "stealth"
+        },
+        {
+            "word": "silence",
+            "type": "skillCheck",
+            "skill": "stealth"
+        },
+        {
+            "word": "hiding",
+            "type": "skillCheck",
+            "skill": "stealth"
+        },
+        {
+            "word": "skulking",
+            "type": "skillCheck",
+            "skill": "stealth"
+        },
+        {
+            "word": "subtlety",
+            "type": "skillCheck",
+            "skill": "stealth"
+        },
+        {
+            "word": "illusiveness",
+            "type": "skillCheck",
+            "skill": "stealth"
+        },
+        {
+            "word": "passing",
+            "type": "skillCheck",
+            "skill": "stealth"
+        },
+        {
+            "word": "camouflage",
+            "type": "skillCheck",
+            "skill": "stealth"
+        },
+        {
+            "word": "inconspicuousness",
+            "type": "skillCheck",
+            "skill": "stealth"
+        },
+        {
+            "word": "survival",
+            "type": "skillCheck",
+            "skill": "survival"
+        },
+        {
+            "word": "tracking",
+            "type": "skillCheck",
+            "skill": "survival"
+        },
+        {
+            "word": "hunting",
+            "type": "skillCheck",
+            "skill": "survival"
+        },
+        {
+            "word": "foraging",
+            "type": "skillCheck",
+            "skill": "survival"
+        },
+        {
+            "word": "endurance",
+            "type": "skillCheck",
+            "skill": "survival"
+        },
+        {
+            "word": "guidance",
+            "type": "skillCheck",
+            "skill": "survival"
+        },
+        {
+            "word": "navigation",
+            "type": "skillCheck",
+            "skill": "survival"
+        },
+        {
+            "word": "exploration",
+            "type": "skillCheck",
+            "skill": "survival"
+        },
+        {
+            "word": "hiking",
+            "type": "skillCheck",
+            "skill": "survival"
+        },
+        {
+            "word": "rambling",
+            "type": "skillCheck",
+            "skill": "survival"
+        },
+        {
+            "word": "travelling",
+            "type": "skillCheck",
+            "skill": "survival"
+        },
+        {
+            "word": "the wayfinder",
+            "type": "skillCheck",
+            "skill": "survival"
+        },
+        {
+            "word": "steadfastness",
+            "type": "save",
+            "skill": "strength"
+        },
+        {
+            "word": "evasion",
+            "type": "save",
+            "skill": "dexterity"
+        },
+        {
+            "word": "iron stomach",
+            "type": "save",
+            "skill": "constitution"
+        },
+        {
+            "word": "being smart",
+            "type": "save",
+            "skill": "intelligence"
+        },
+        {
+            "word": "knowing",
+            "type": "save",
+            "skill": "wisdom"
+        },
+        {
+            "word": "saving face",
+            "type": "save",
+            "skill": "charisma"
+        },
+
+    {"word":"sleeping","type":"","skill":""},{"word":"spilling","type":"","skill":""},{"word":"weeding","type":"","skill":""},{"word":"moaning","type":"","skill":""},{"word":"leaning","type":"","skill":""},{"word":"floating","type":"","skill":""},{"word":"waiting","type":"","skill":""},{"word":"fleeing","type":"","skill":""},{"word":"frowning","type":"","skill":""},{"word":"rusting","type":"","skill":""},{"word":"ascending","type":"","skill":""},{"word":"hovering","type":"","skill":""},{"word":"beholding","type":"","skill":""},{"word":"imagining","type":"","skill":""},{"word":"gathering","type":"","skill":""},{"word":"bidding","type":"","skill":""},{"word":"breeding","type":"","skill":""},{"word":"moulding","type":"","skill":""},{"word":"dreaming","type":"","skill":""},{"word":"chasing","type":"","skill":""},{"word":"waking","type":"","skill":""},{"word":"caressing","type":"","skill":""},{"word":"sobbing","type":"","skill":""},{"word":"mourning","type":"","skill":""},{"word":"withering","type":"","skill":""},{"word":"glowing","type":"","skill":""},{"word":"stumbling","type":"","skill":""},{"word":"pissing","type":"","skill":""},{"word":"working","type":"","skill":""},{"word":"stealing","type":"","skill":""},{"word":"circling","type":"","skill":""},{"word":"licking","type":"","skill":""},{"word":"sewing","type":"","skill":""},{"word":"reigning","type":"","skill":""},{"word":"flaking","type":"","skill":""},{"word":"shunning","type":"","skill":""},{"word":"bleeding","type":"","skill":""},{"word":"braiding","type":"","skill":""},{"word":"stitching","type":"","skill":""},{"word":"sitting","type":"","skill":""},{"word":"hawking","type":"","skill":""},{"word":"burnishing","type":"","skill":""},{"word":"drenching","type":"","skill":""},{"word":"scrubbing","type":"","skill":""},{"word":"coiling","type":"","skill":""},{"word":"inhabiting","type":"","skill":""},{"word":"looping","type":"","skill":""},{"word":"ticking","type":"","skill":""},{"word":"fretting","type":"","skill":""},{"word":"hushing","type":"","skill":""},{"word":"blushing","type":"","skill":""},{"word":"grazing","type":"","skill":""},{"word":"lodging","type":"","skill":""},{"word":"drooping","type":"","skill":""},{"word":"biding","type":"","skill":""},{"word":"drowning","type":"","skill":""},{"word":"hanging","type":"","skill":""},{"word":"adorning","type":"","skill":""},{"word":"thriving","type":"","skill":""},{"word":"trembling","type":"","skill":""},{"word":"speckling","type":"","skill":""},{"word":"lasting","type":"","skill":""},{"word":"gliding","type":"","skill":""},{"word":"shinning","type":"","skill":""},{"word":"breathing","type":"","skill":""},{"word":"pouring","type":"","skill":""},{"word":"deeming","type":"","skill":""},{"word":"creeping","type":"","skill":""},{"word":"longing","type":"","skill":""},{"word":"dipping","type":"","skill":""},{"word":"splaying","type":"","skill":""},{"word":"groaning","type":"","skill":""},{"word":"gazing","type":"","skill":""},{"word":"dawning","type":"","skill":""},{"word":"winging","type":"","skill":""},{"word":"blessing","type":"","skill":""},{"word":"vanishing","type":"","skill":""},{"word":"devouring","type":"","skill":""},{"word":"manning","type":"","skill":""},{"word":"perching","type":"","skill":""},{"word":"listening","type":"","skill":""},{"word":"descending","type":"","skill":""},{"word":"curling","type":"","skill":""},{"word":"poking","type":"","skill":""},{"word":"reeling","type":"","skill":""},{"word":"leaping","type":"","skill":""},{"word":"forsaking","type":"","skill":""},{"word":"dwelling","type":"","skill":""},{"word":"dappling","type":"","skill":""},{"word":"crumbling","type":"","skill":""},{"word":"roaring","type":"","skill":""},{"word":"tilting","type":"","skill":""},{"word":"scattering","type":"","skill":""},{"word":"souring","type":"","skill":""},{"word":"fouling","type":"","skill":""},{"word":"fancying","type":"","skill":""},{"word":"charing","type":"","skill":""},{"word":"gracing","type":"","skill":""},{"word":"bleating","type":"","skill":""},{"word":"hunching","type":"","skill":""},{"word":"adoring","type":"","skill":""},{"word":"filling","type":"","skill":""},{"word":"exiting","type":"","skill":""},{"word":"blossoming","type":"","skill":""},{"word":"exploding","type":"","skill":""},{"word":"healing","type":"","skill":""},{"word":"glimmering","type":"","skill":""},{"word":"darting","type":"","skill":""},{"word":"clattering","type":"","skill":""},{"word":"ebbing","type":"","skill":""},{"word":"strapping","type":"","skill":""},{"word":"sprouting","type":"","skill":""},{"word":"smoking","type":"","skill":""},{"word":"bogging","type":"","skill":""},{"word":"hiding","type":"","skill":""},{"word":"unfolding","type":"","skill":""},{"word":"scarring","type":"","skill":""},{"word":"ragging","type":"","skill":""},{"word":"melting","type":"","skill":""},{"word":"soothing","type":"","skill":""},{"word":"fucking","type":"","skill":""},{"word":"mirroring","type":"","skill":""},{"word":"perishing","type":"","skill":""},{"word":"beading","type":"","skill":""},{"word":"flecking","type":"","skill":""},{"word":"riving","type":"","skill":""},{"word":"tattooing","type":"","skill":""},{"word":"aching","type":"","skill":""},{"word":"shrinking","type":"","skill":""},{"word":"decking","type":"","skill":""},{"word":"tapping","type":"","skill":""},{"word":"hoisting","type":"","skill":""},{"word":"mangling","type":"","skill":""},{"word":"sparkling","type":"","skill":""},{"word":"wearing","type":"","skill":""},{"word":"howling","type":"","skill":""},{"word":"chewing","type":"","skill":""},{"word":"praying","type":"","skill":""},{"word":"letting","type":"","skill":""},{"word":"wielding","type":"","skill":""},{"word":"apologizing","type":"","skill":""},{"word":"wrestling","type":"","skill":""},{"word":"stocking","type":"","skill":""},{"word":"puffing","type":"","skill":""},{"word":"erasing","type":"","skill":""},{"word":"shrouding","type":"","skill":""},{"word":"contending","type":"","skill":""},{"word":"muscling","type":"","skill":""},{"word":"warbling","type":"","skill":""},{"word":"yellowing","type":"","skill":""},{"word":"resembling","type":"","skill":""},{"word":"fracturing","type":"","skill":""},{"word":"enraging","type":"","skill":""},{"word":"cheering","type":"","skill":""},{"word":"craving","type":"","skill":""},{"word":"spelling","type":"","skill":""},{"word":"slapping","type":"","skill":""},{"word":"echoing","type":"","skill":""},{"word":"flinging","type":"","skill":""},{"word":"wearying","type":"","skill":""},{"word":"deceiving","type":"","skill":""},{"word":"warring","type":"","skill":""},{"word":"partaking","type":"","skill":""},{"word":"mumbling","type":"","skill":""},{"word":"straying","type":"","skill":""},{"word":"punching","type":"","skill":""},{"word":"digging","type":"","skill":""},{"word":"imprinting","type":"","skill":""},{"word":"sniffing","type":"","skill":""},{"word":"denting","type":"","skill":""},{"word":"surviving","type":"","skill":""},{"word":"gnawing","type":"","skill":""},{"word":"clothing","type":"","skill":""},{"word":"galloping","type":"","skill":""},{"word":"kindling","type":"","skill":""},{"word":"rattling","type":"","skill":""},{"word":"thickening","type":"","skill":""},{"word":"blinding","type":"","skill":""},{"word":"swaying","type":"","skill":""},{"word":"singing","type":"","skill":""}
+         ]}
