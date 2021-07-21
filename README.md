@@ -1,3 +1,5 @@
+See the live app here: https://magic-items-inspo.herokuapp.com/
+
 VERSION 2 NOW LIVE
 
 I made some changes to the data sets, so they are a lot more intricate now, and I have also added an example of what the magic item could do. You can also filter by the type of item you want, or by how strong you would like it. Hope you enjoy!
