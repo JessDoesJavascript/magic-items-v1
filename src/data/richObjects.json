@@ -4,360 +4,488 @@
       {
         "name": "staff",
         "use": "held",
-        "plural": "no"
+        "plural": false,
+        "type": "An Object"
       },
       {
         "name": "wand",
         "use": "held",
-        "plural": "no"
+        "plural": false,
+        "type": "An Object"
       },
-
       {
         "name": "orb",
         "use": "held",
-        "plural": "no"
+        "plural": false,
+        "type": "An Object"
       },
       {
         "name": "rod",
         "use": "held",
-        "plural": "no"
+        "plural": false,
+        "type": "An Object"
       },
       {
         "name": "disc",
         "use": "held",
-        "plural": "no"
+        "plural": false,
+        "type": "An Object"
       },
       {
         "name": "amulet",
         "use": "held",
-        "plural": "no"
+        "plural": false,
+        "type": "An Object"
       },
       {
         "name": "cube",
         "use": "held",
-        "plural": "no"
+        "plural": false,
+        "type": "An Object"
       },
       {
         "name": "dodecahedron",
         "use": "held",
-        "plural": "no"
+        "plural": false,
+        "type": "An Object"
       },
       {
         "name": "pocket watch",
         "use": "held",
-        "plural": "no"
+        "plural": false,
+        "type": "An Object"
       },
       {
         "name": "flower",
         "use": "held",
-        "plural": "no"
-      },
-      {
-        "name": "bar of soap",
-        "use": "used",
-        "plural": "no"
+        "plural": false,
+        "type": "An Object"
       },
       {
         "name": "drum",
         "use": "played",
-        "plural": "no"
+        "plural": false,
+        "type": "An Instrument"
       },
       {
         "name": "glockenspiel",
         "use": "played",
-        "plural": "no"
+        "plural": false,
+        "type": "An Instrument"
       },
       {
         "name": "harp",
         "use": "played",
-        "plural": "no"
+        "plural": false,
+        "type": "An Instrument"
       },
       {
         "name": "bagpipes",
         "use": "played",
-        "plural": "yes"
+        "plural": true,
+        "type": "An Instrument"
       },
       {
         "name": "lute",
         "use": "played",
-        "plural": "no"
+        "plural": false,
+        "type": "An Instrument"
       },
       {
         "name": "horn",
         "use": "played",
-        "plural": "no"
+        "plural": false,
+        "type": "An Instrument"
       },
       {
         "name": "viol",
         "use": "played",
-        "plural": "no"
+        "plural": false,
+        "type": "An Instrument"
       },
       {
         "name": "shawm",
         "use": "played",
-        "plural": "no"
+        "plural": false,
+        "type": "An Instrument"
       },
       {
         "name": "flute",
         "use": "played",
-        "plural": "no"
+        "plural": false,
+        "type": "An Instrument"
       },
       {
         "name": "lyre",
         "use": "played",
-        "plural": "no"
+        "plural": false,
+        "type": "An Instrument"
       },
       {
         "name": "pan flute",
         "use": "played",
-        "plural": "no"
+        "plural": false,
+        "type": "An Instrument"
       },
       {
         "name": "guitar",
         "use": "played",
-        "plural": "no"
+        "plural": false,
+        "type": "An Instrument"
       },
       {
         "name": "banjo",
         "use": "played",
-        "plural": "no"
+        "plural": false,
+        "type": "An Instrument"
       },
       {
         "name": "mandolin",
         "use": "played",
-        "plural": "no"
+        "plural": false,
+        "type": "An Instrument"
       },
       {
         "name": "cello",
         "use": "played",
-        "plural": "no"
+        "plural": false,
+        "type": "An Instrument"
       },
       {
         "name": "fiddle",
         "use": "played",
-        "plural": "no"
+        "plural": false,
+        "type": "An Instrument"
       },
       {
         "name": "cloak",
         "use": "worn",
-        "plural": "no"
+        "plural": false,
+        "type": "Clothing or Jewellery"
       },
       {
         "name": "coat",
         "use": "worn",
-        "plural": "no"
+        "plural": false,
+        "type": "Clothing or Jewellery"
       },
       {
         "name": "cape",
         "use": "worn",
-        "plural": "no"
+        "plural": false,
+        "type": "Clothing or Jewellery"
       },
       {
         "name": "jacket",
         "use": "worn",
-        "plural": "no"
+        "plural": false,
+        "type": "Clothing or Jewellery"
       },
       {
         "name": "hat",
         "use": "worn",
-        "plural": "no"
+        "plural": false,
+        "type": "Clothing or Jewellery"
       },
       {
         "name": "headband",
         "use": "worn",
-        "plural": "no"
+        "plural": false,
+        "type": "Clothing or Jewellery"
       },
       {
         "name": "earmuffs",
         "use": "worn",
-        "plural": "yes"
+        "plural": true,
+        "type": "Clothing or Jewellery"
       },
       {
         "name": "earrings",
         "use": "worn",
-        "plural": "yes"
+        "plural": true,
+        "type": "Clothing or Jewellery"
       },
       {
         "name": "necklace",
         "use": "worn",
-        "plural": "no"
+        "plural": false,
+        "type": "Clothing or Jewellery"
       },
       {
         "name": "beads",
         "use": "worn",
-        "plural": "yes"
+        "plural": true,
+        "type": "Clothing or Jewellery"
       },
       {
         "name": "collar",
         "use": "worn",
-        "plural": "no"
+        "plural": false,
+        "type": "Clothing or Jewellery"
       },
       {
         "name": "choker",
         "use": "worn",
-        "plural": "no"
+        "plural": false,
+        "type": "Clothing or Jewellery"
       },
       {
         "name": "fake beard",
         "use": "worn",
-        "plural": "no"
+        "plural": false,
+        "type": "Clothing or Jewellery"
       },
       {
         "name": "fake moustache",
         "use": "worn",
-        "plural": "no"
+        "plural": false,
+        "type": "Clothing or Jewellery"
       },
       {
         "name": "monocle",
         "use": "worn",
-        "plural": "no"
+        "plural": false,
+        "type": "Clothing or Jewellery"
       },
       {
         "name": "glasses",
         "use": "worn",
-        "plural": "yes"
+        "plural": true,
+        "type": "Clothing or Jewellery"
       },
       {
         "name": "spectacles",
         "use": "worn",
-        "plural": "yes"
+        "plural": true,
+        "type": "Clothing or Jewellery"
       },
       {
         "name": "shirt",
         "use": "worn",
-        "plural": "no"
+        "plural": false,
+        "type": "Clothing or Jewellery"
       },
       {
         "name": "trousers",
         "use": "worn",
-        "plural": "yes"
+        "plural": true,
+        "type": "Clothing or Jewellery"
       },
       {
         "name": "waistcoat",
         "use": "worn",
-        "plural": "no"
+        "plural": false,
+        "type": "Clothing or Jewellery"
       },
       {
         "name": "corset",
         "use": "worn",
-        "plural": "no"
+        "plural": false,
+        "type": "Clothing or Jewellery"
       },
       {
         "name": "wristwatch",
         "use": "worn",
-        "plural": "no"
+        "plural": false,
+        "type": "Clothing or Jewellery"
       },
       {
         "name": "bracelet",
         "use": "worn",
-        "plural": "no"
+        "plural": false,
+        "type": "Clothing or Jewellery"
       },
       {
         "name": "bangle",
         "use": "worn",
-        "plural": "no"
+        "plural": false,
+        "type": "Clothing or Jewellery"
       },
       {
         "name": "toe ring",
         "use": "worn",
-        "plural": "no"
+        "plural": false,
+        "type": "Clothing or Jewellery"
       },
       {
         "name": "ring",
         "use": "worn",
-        "plural": "no"
+        "plural": false,
+        "type": "Clothing or Jewellery"
       },
       {
         "name": "shoulderpads",
         "use": "worn",
-        "plural": "yes"
+        "plural": true,
+        "type": "Clothing or Jewellery"
       },
       {
         "name": "apron",
         "use": "worn",
-        "plural": "no"
+        "plural": false,
+        "type": "Clothing or Jewellery"
       },
       {
         "name": "oven gloves",
         "use": "worn",
-        "plural": "yes"
+        "plural": true,
+        "type": "Clothing or Jewellery"
       },
       {
         "name": "gloves",
         "use": "worn",
-        "plural": "yes"
+        "plural": true,
+        "type": "Clothing or Jewellery"
       },
       {
         "name": "fingerless gloves",
         "use": "worn",
-        "plural": "yes"
+        "plural": true,
+        "type": "Clothing or Jewellery"
       },
       {
         "name": "bracers",
         "use": "worn",
-        "plural": "yes"
+        "plural": true,
+        "type": "Clothing or Jewellery"
       },
       {
         "name": "boots",
         "use": "worn",
-        "plural": "yes"
+        "plural": true,
+        "type": "Clothing or Jewellery"
       },
       {
         "name": "loafers",
         "use": "worn",
-        "plural": "yes"
+        "plural": true,
+        "type": "Clothing or Jewellery"
+      },
+      {
+        "name": "blue suede shoes",
+        "use": "worn",
+        "plural": true,
+        "type": "Clothing or Jewellery"
       },
       {
         "name": "mules",
         "use": "worn",
-        "plural": "yes"
+        "plural": true,
+        "type": "Clothing or Jewellery"
       },
       {
         "name": "sandals",
         "use": "worn",
-        "plural": "yes"
+        "plural": true,
+        "type": "Clothing or Jewellery"
       },
       {
         "name": "flip-flops",
         "use": "worn",
-        "plural": "yes"
+        "plural": true,
+        "type": "Clothing or Jewellery"
       },
       {
         "name": "boots",
         "use": "worn",
-        "plural": "yes"
+        "plural": true,
+        "type": "Clothing or Jewellery"
       },
       {
         "name": "nail polish",
         "use": "worn",
-        "plural": "no"
+        "plural": false,
+        "type": "Clothing or Jewellery"
       },
       {
         "name": "mug",
         "use": "filled",
-        "plural": "no"
+        "plural": false,
+        "type": "A Receptacle"
+      },
+      {
+        "name": "bag",
+        "use": "filled",
+        "plural": false,
+        "type": "A Receptacle"
+      },
+      {
+        "name": "cup",
+        "use": "filled",
+        "plural": false,
+        "type": "A Receptacle"
+      },
+      {
+        "name": "chalice",
+        "use": "filled",
+        "plural": false,
+        "type": "A Receptacle"
+      },
+      {
+        "name": "goblet",
+        "use": "filled",
+        "plural": false,
+        "type": "A Receptacle"
+      },
+      {
+        "name": "carafe",
+        "use": "filled",
+        "plural": false,
+        "type": "A Receptacle"
+      },
+      {
+        "name": "bucket",
+        "use": "filled",
+        "plural": false,
+        "type": "A Receptacle"
+      },
+      {
+        "name": "sack",
+        "use": "filled",
+        "plural": false,
+        "type": "A Receptacle"
+      },
+      {
+        "name": "case",
+        "use": "filled",
+        "plural": false,
+        "type": "A Receptacle"
+      },
+      {
+        "name": "vial",
+        "use": "filled",
+        "plural": false,
+        "type": "A Receptacle"
+      },
+      {
+        "name": "bottle",
+        "use": "filled",
+        "plural": false,
+        "type": "A Receptacle"
       },
       {
         "name": "knife",
         "use": "held",
-        "plural": "no"
+        "plural": false,
+        "type": "An Object"
       },
       {
         "name": "fork",
         "use": "held",
-        "plural": "no"
+        "plural": false,
+        "type": "An Object"
       },
       {
         "name": "spoon",
         "use": "held",
-        "plural": "no"
+        "plural": false,
+        "type": "An Object"
       },
       {
         "name": "bowl",
         "use": "held",
-        "plural": "no"
+        "plural": false,
+        "type": "An Object"
       }
-      
-
-
-    ]}
+    ]
+  }
