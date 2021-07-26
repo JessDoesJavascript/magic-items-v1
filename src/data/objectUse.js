@@ -1,4 +1,4 @@
-const richObjects = require('./richObjects.json')
+import richObjects from './richObjects.json';
 
 function objectUse() {
 let arrayOfUses = [];
@@ -11,4 +11,4 @@ let uniqueTypes = [...new Set(arrayOfUses)]
 return uniqueTypes
 }
 
-module.exports = objectUse;
+export default objectUse;
