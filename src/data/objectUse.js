@@ -11,4 +11,4 @@ let uniqueTypes = [...new Set(arrayOfUses)]
 return uniqueTypes
 }
 
-module.exports = objectUse
+module.exports = objectUse;

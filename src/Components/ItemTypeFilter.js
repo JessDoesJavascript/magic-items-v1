@@ -8,7 +8,6 @@ const StyledFieldset = styled.fieldset`
   flex-direction: column;
   justify-content: center; 
   align-items: flex-start; 
-  
 `;
 
 const StyledRadioButton = styled.input`
