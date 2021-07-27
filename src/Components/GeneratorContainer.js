@@ -11,17 +11,17 @@ const StyledGeneratorContainer = styled.div`
 `;
 
 function GeneratorContainer(props) {
-    return(
-        <StyledGeneratorContainer data-testid="generatorSectionRender">
-        <MagicItem magicItem={props.magicItem}/>
-         { props.descriptionShown ? 
-            <MagicEffectDescription  
-              magicItemDescription={props.magicItemDescription} 
-              descriptionShown={props.descriptionShown} /> 
-              : null 
-         } 
-       </StyledGeneratorContainer>
-    )
+  return (
+    <StyledGeneratorContainer data-testid="generatorSectionRender">
+      <MagicItem magicItem={props.magicItem} />
+      {props.descriptionShown ?
+        <MagicEffectDescription
+          magicItemDescription={props.magicItemDescription}
+          descriptionShown={props.descriptionShown} />
+        : null
+      }
+    </StyledGeneratorContainer>
+  )
 }
 
-export default GeneratorContainer; 
+export default GeneratorContainer;

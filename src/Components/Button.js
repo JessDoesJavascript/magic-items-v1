@@ -8,9 +8,9 @@ const StyledButton = styled.button`
 `;
 
 function Button(props) {
-    return (
-        <StyledButton onClick={props.action}>{props.buttonText}</StyledButton>
-    )
+  return (
+    <StyledButton onClick={props.action}>{props.buttonText}</StyledButton>
+  )
 }
 
 export default Button;

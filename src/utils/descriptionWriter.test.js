@@ -17,8 +17,8 @@ test('descriptionWriter returns object with correct properties', () => {
         description: expect.any(String),
         presentParticipleWord: expect.any(String),
         objectPlural: expect.any(Boolean)
-    }))})
-
+    }))
+})
 
 test('descriptionWriter returns correct grammar when object is plural', () => {
     const grantOrGrants = descriptionWriter("bracers", "worn", true, "").grantOrGrants
@@ -33,24 +33,42 @@ test('descriptionWriter returns correct grammar when object is not plural', () =
 test('descriptionWriter returns correct determiner option', () => {
     const description = descriptionWriter("waistcoat", "worn", false, "")
     const determiner = description.determiner;
-    const adjective = description.adjective; 
+    const adjective = description.adjective;
     const plural = description.objectPlural;
-    if (plural) { 
+    if (plural) {
         expect(determiner).toMatch("A set of")
-    } else 
-    if ( adjective.charAt(0) === "a" || 
-         adjective.charAt(0) === "e" || 
-         adjective.charAt(0) === "i" || 
-         adjective.charAt(0) === "o" || 
-         adjective.charAt(0) === "u" )  {
+    } else
+        if (adjective.charAt(0) === "a" ||
+            adjective.charAt(0) === "e" ||
+            adjective.charAt(0) === "i" ||
+            adjective.charAt(0) === "o" ||
+            adjective.charAt(0) === "u") {
             expect(determiner).toMatch("An")
-    } else {
+        } else {
             expect(determiner).toMatch("A")
-    }
+        }
 })
 
 test('descriptionWriter filters by itemStrength correctly', () => {
     const description = descriptionWriter("waistcoat", "worn", false, "rare")
     const itemStrength = description.effect;
     expect(itemStrength).toMatch("a +2 bonus")
+})
+
+const testCases = [
+    ["waistcoat", "worn", false, "common", "advantage"],
+    ["waistcoat", "worn", false, "uncommon", "a +1 bonus"],
+    ["waistcoat", "worn", false, "rare", "a +2 bonus"],
+    ["waistcoat", "worn", false, "veryRare", "a +3 bonus"],
+    ["waistcoat", "worn", false, "legendary", "a +4 bonus"],
+]
+
+describe('itemStrength filter works correctly', () => {
+    test.each(testCases)(
+        "given $s $s $s $s, returns $s",
+        (first, second, third, fourth, expectedResult) => {
+            const result = descriptionWriter(first, second, third, fourth).effect
+            expect(result).toEqual(expectedResult)
+        }
+    )
 })

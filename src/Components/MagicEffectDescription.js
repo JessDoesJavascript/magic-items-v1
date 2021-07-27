@@ -29,7 +29,6 @@ function MagicEffectDescription(props) {
       <StyledDescriptionContainer>
         <StyledP> {props.magicItemDescription} </StyledP>
       </StyledDescriptionContainer>
-
     </MagicEffectDescriptionContainer>
   )
 }

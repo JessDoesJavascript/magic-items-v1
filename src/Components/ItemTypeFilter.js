@@ -75,7 +75,6 @@ function ItemTypeFilter(props) {
                         </StyledLabel>
                     </ButtonAndLabelContainer>
                 )}
-
             </StyledFieldset>
         </StyledItemTypeFilter>
 

@@ -1,4 +1,3 @@
-
 import { React, useState } from 'react'
 import styled from 'styled-components';
 import objectDecider from './utils/objectDecider'
@@ -36,11 +35,9 @@ function App() {
       let object = objectDecider(objectType);
       const nameAndDescription = descriptionWriter(object.name, object.use, object.plural, itemStrength)
       let description = nameAndDescription.description;
-      
-      setMagicItem( nameAndDescription.item )
-      setMagicItemDescription( description )
+      setMagicItem(nameAndDescription.item)
+      setMagicItemDescription(description)
   }
-    
   return (
     <StyledApp>
         <h1> Welcome to Aerith Pastina's Magic Item Workshop </h1>
@@ -52,7 +49,7 @@ function App() {
           magicItemDescription={magicItemDescription} 
           descriptionShown={descriptionShown} />
         <ButtonContainer 
-          generateWord={newWordGenerator} 
+          generateWord={() => newWordGenerator} 
           toggleDescription={() => setDescriptionShown(!descriptionShown)} />
         <FiltersContainer 
           handleItemStrengthChange={(e) => setItemStrength(e.target.value)} 

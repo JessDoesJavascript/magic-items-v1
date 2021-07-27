@@ -7,12 +7,12 @@ const StyledButtonContainer = styled.div`
 `;
 
 function ButtonContainer(props) {
-    return(
-        <StyledButtonContainer data-testid="buttonContainerID">
-          <Button action={props.generateWord} buttonText="Inspire Me"  />
-          <Button action={props.toggleDescription} buttonText="Show/Hide Magical Effect"/>
-        </StyledButtonContainer>
-    )
+  return (
+    <StyledButtonContainer data-testid="buttonContainerID">
+      <Button action={props.generateWord} buttonText="Inspire Me" />
+      <Button action={props.toggleDescription} buttonText="Show/Hide Magical Effect" />
+    </StyledButtonContainer>
+  )
 }
 
-export default ButtonContainer; 
+export default ButtonContainer;

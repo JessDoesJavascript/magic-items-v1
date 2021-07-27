@@ -5,16 +5,16 @@ import ItemTypeFilter from './ItemTypeFilter';
 const StyledFiltersContainer = styled.div``;
 
 function FiltersContainer(props) {
-    return(
+    return (
         <StyledFiltersContainer data-testid="filtersContainerID">
-            <ItemStrengthFilter 
-                handleItemStrengthChange={props.handleItemStrengthChange} 
+            <ItemStrengthFilter
+                handleItemStrengthChange={props.handleItemStrengthChange}
                 itemStrength={props.itemStrength} />
-            <ItemTypeFilter 
-                handleItemTypeChange={props.handleItemTypeChange} 
-                objectType={props.objectType} 
-            /> 
-       </StyledFiltersContainer>
+            <ItemTypeFilter
+                handleItemTypeChange={props.handleItemTypeChange}
+                objectType={props.objectType}
+            />
+        </StyledFiltersContainer>
     )
 }
 
