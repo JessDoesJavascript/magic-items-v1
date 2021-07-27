@@ -49,7 +49,7 @@ function App() {
           magicItemDescription={magicItemDescription} 
           descriptionShown={descriptionShown} />
         <ButtonContainer 
-          generateWord={() => newWordGenerator} 
+          generateWord={newWordGenerator} 
           toggleDescription={() => setDescriptionShown(!descriptionShown)} />
         <FiltersContainer 
           handleItemStrengthChange={(e) => setItemStrength(e.target.value)} 
