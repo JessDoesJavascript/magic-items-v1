@@ -12,8 +12,7 @@ function FiltersContainer(props) {
                 itemStrength={props.itemStrength} />
             <ItemTypeFilter
                 handleItemTypeChange={props.handleItemTypeChange}
-                objectType={props.objectType}
-            />
+                objectType={props.objectType} />
         </StyledFiltersContainer>
     )
 }

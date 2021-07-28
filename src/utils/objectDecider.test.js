@@ -1,7 +1,7 @@
 const objectDecider = require('./objectDecider');
 
 test('objectDecider returns an object with properties name, plural , use & type', () => {
-    const object = objectDecider("showAll")
+    const object = objectDecider("showAllTypes")
     expect(object).toEqual(expect.objectContaining({
         name: expect.any(String),
         plural: expect.any(Boolean),

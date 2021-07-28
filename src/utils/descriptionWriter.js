@@ -26,7 +26,7 @@ function descriptionWriter(objectName, objectUse, objectPlural, itemStrength) {
         }
     }
     const effectFinder = (itemStrength) => {
-        if (itemStrength === "" || itemStrength === "showAll") {
+        if (itemStrength === "" || itemStrength === "showAllStrengths") {
             let effect = effectType.effectTypes[randomNumber(effectType.effectTypes.length)]
             return effect.effect
         } else {

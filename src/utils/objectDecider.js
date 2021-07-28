@@ -4,9 +4,9 @@ const randomNumber = require('./randomNumberGen');
 let arrayOfObjects = objects.objectsByName;
 
 function objectDecider(type) {
-    if (type === "" || type === "showAll") {
-       let object = arrayOfObjects[randomNumber(arrayOfObjects.length)]
-       return object;
+    if (type === "" || type === "showAllTypes") {
+        let object = arrayOfObjects[randomNumber(arrayOfObjects.length)]
+        return object;
     } else {
         let filteredObjects = arrayOfObjects.filter(object => object.type === type)
         let filteredObjectsLength = filteredObjects.length;

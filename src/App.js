@@ -4,7 +4,7 @@ import objectDecider from './utils/objectDecider'
 import About from './Components/About';
 import GeneratorContainer from './Components/GeneratorContainer';
 import ButtonContainer from './Components/ButtonContainer';
-import FiltersContainer from './Components/FiltersContainer';
+import FiltersContainer from './Components/Filters/FiltersContainer';
 import descriptionWriter from './utils/descriptionWriter';
 
 const StyledApp = styled.div`
