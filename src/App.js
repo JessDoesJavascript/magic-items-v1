@@ -1,11 +1,11 @@
 import { React, useState } from 'react'
 import styled from 'styled-components';
+import descriptionWriter from './utils/descriptionWriter';
 import objectDecider from './utils/objectDecider'
 import About from './Components/About';
 import GeneratorContainer from './Components/GeneratorContainer';
 import ButtonContainer from './Components/ButtonContainer';
 import FiltersContainer from './Components/Filters/FiltersContainer';
-import descriptionWriter from './utils/descriptionWriter';
 
 const StyledApp = styled.div`
   background: rgb(255,255,255);
