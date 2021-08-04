@@ -3,8 +3,8 @@ import styled from 'styled-components';
 import descriptionWriter from './utils/descriptionWriter';
 import objectDecider from './utils/objectDecider'
 import About from './Components/About';
-import GeneratorContainer from './Components/GeneratorContainer';
-import ButtonContainer from './Components/ButtonContainer';
+import GeneratorContainer from './Components/Generator/GeneratorContainer';
+import ButtonContainer from './Components/Generator/ButtonContainer';
 import FiltersContainer from './Components/Filters/FiltersContainer';
 
 const StyledApp = styled.div`
@@ -29,7 +29,6 @@ function App() {
     const [magicItem, setMagicItem] = useState('Click "Inspire Me" to generate a magic item!');
     const [magicItemDescription, setMagicItemDescription] = useState('');
     const [descriptionShown, setDescriptionShown] = useState(false);
-    const [aboutShown, setAboutShown] = useState(false);
     
     const newWordGenerator = () => {
       let object = objectDecider(objectType);
@@ -41,9 +40,7 @@ function App() {
   return (
     <StyledApp>
         <h1> Welcome to Aerith Pastina's Magic Item Workshop </h1>
-        <About 
-          aboutShown={aboutShown} 
-          handleAboutShown={() => setAboutShown(!aboutShown)} />
+        <About />
         <GeneratorContainer 
           magicItem={magicItem}
           magicItemDescription={magicItemDescription} 

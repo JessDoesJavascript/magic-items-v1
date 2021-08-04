@@ -1,4 +1,5 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
+import { React, useState } from 'react';
 
 const AboutContainer = styled.div``;
 
@@ -11,11 +12,12 @@ const StyledP = styled.p`
   width: 300px;
 `;
 
-function About(props) {
+function About() {
+  const [aboutShown, setAboutShown] = useState(false);
   return (
     <AboutContainer data-testid="aboutSectionRender">
-      <AboutButton onClick={props.handleAboutShown}> About </AboutButton>
-      {props.aboutShown ?
+      <AboutButton onClick={() => setAboutShown(!aboutShown)}> About </AboutButton>
+      {aboutShown ?
         <div>
           <StyledP>
             This is a very simple random magic item generator.
