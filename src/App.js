@@ -37,6 +37,7 @@ function App() {
       setMagicItem(nameAndDescription.item)
       setMagicItemDescription(description)
   }
+  
   return (
     <StyledApp>
         <h1> Welcome to Aerith Pastina's Magic Item Workshop </h1>

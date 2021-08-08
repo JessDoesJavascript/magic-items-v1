@@ -56,14 +56,11 @@ function descriptionWriter(objectName, objectUse, objectPlural, itemStrength) {
     const effect = effectFinder(itemStrength);
     const check = checkDecider();
     const presentParticipleWord = presentParticiple.word;
-    const magicItem = "the " + objectName + " of " + presentParticipleWord;
+    const magicItem = `the ${objectName} of ${presentParticipleWord}`
     const words = {
         determiner, adjective, objectName, grantOrGrants, effect, skillType, check, objectUse, presentParticipleWord, objectPlural,
         item: magicItem,
-        description: determiner + " " + adjective + " "
-            + objectName + " that " + grantOrGrants
-            + " " + effect + " to " + skillType
-            + " " + check + " when " + objectUse + "."
+        description: `${determiner} ${adjective} ${objectName} that ${grantOrGrants} ${effect} to ${skillType} ${check} when ${objectUse}.`
     }
     return words
 }
